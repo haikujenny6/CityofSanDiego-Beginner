@@ -45,7 +45,7 @@ if arguments.len == 2 then
         println("dirb https://neondripz.com /home/wordlists/directories")
     else if arguments[1] == "curl" then 
         println("This is the hint for <color=#66DDFB>curl</color> command")
-        println("curl https://neondripz.com")
+        println("<color=#66DDFB>curl https://neondripz.com</color>")
     else if arguments[1] == "nmap" then 
         println("This is the hint for <color=#66DDFB>nmap</color> command")
         println("nmap <Found IP ADDR>")
@@ -59,7 +59,7 @@ if arguments.len == 2 then
     else if arguments[1] == "ssh" then //--Check to see if this can pull the deviceIP
         println("This is the hint for <color=#66DDFB>ssh</color> command")
         //--deviceIP = {DeviceIP:HF_CofSD_Beginner_neuronetmedia}
-        println("ssh neuronetmedia.com")
+        println("<color=#66DDFB>ssh neuronetmedia.com</color>")
         println("Enter the credentials you found")
         println("when prompted.")
         //--println("Enter: quickTempPass")
@@ -68,16 +68,17 @@ if arguments.len == 2 then
         println("This is the hint for <color=#66DDFB>flagOne</color> command")
         println("Use the <color=#66DDFB>cat</color> command to display")
         println("the contents of <color=#D0F83E>flagOne.txt</color>, then run")
-        println("<color=#66DDFB>flagOne {FLAG}</color>")
-        println("where {FLAG} is the number found in <color=#D0F83E>flagOne.txt</color>")
+        println("<color=#66DDFB>flagOne FLAG</color>")
+        println("where FLAG is the number found in <color=#D0F83E>flagOne.txt</color>")
     else if arguments[1] == "flagTwo" then
         println("This is the hint for flagTwo")
         println("Check out <u>https://neondripz.com</u> in your web browser.")
         dispatch_successful_command("hint_flagTwo", get_current_device(), "1")
     else if arguments[1] == "flagTwoSubmit" then
         println("This is the hint for submitting flagTwo")
-        println("<color=#66DDFB>flagTwo {FLAG}</color>")
-        println("where {FLAG} is the number found in <color=#D0F83E>flagTwo.txt</color>")
+        println("<color=#66DDFB>flagTwo FLAG</color>")
+        println("where FLAG is the number found in")
+        println("html code of neondripz.com")
     else if arguments[1] == "flagThree" then 
         println("This is the hint for flagThree")
         println("Look around the new web server")
@@ -86,8 +87,8 @@ if arguments.len == 2 then
         println("Check out your Notes App for a listing")
         println("of the commands we reviewed.")
         println("")
-        println("<color=#66DDFB>flagThree {FLAG}</color>")
-        println("where {FLAG} is the number found in <color=#D0F83E>flagThree.txt</color>")
+        println("<color=#66DDFB>flagThree FLAG</color>")
+        println("where FLAG is the number found in <color=#D0F83E>flagThree.txt</color>")
     else
         println("Unrecognized option. Try 'hint -h' for help.")
     end if

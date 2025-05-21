@@ -1,0 +1,59 @@
+Jess:
+Hey, did you get the design mockups for the new
+drinks page?
+
+Ray:
+Yeah, just pulled them in—those animated glitch
+effects on the drink cards are chef’s kiss.
+
+Jess:
+Nice. I'm working on the homepage banner animation.
+You on the NeuroNet server yet?
+
+Ray:
+Not yet. Can you resend the SSH login? I nuked
+my keys by accident!
+
+Jess:
+No problem. It’s still the usual temp creds
+Username: <color=#E82629>dev</color=#E82629>
+Password: <color=#E82629>quickTempPass</color=#E82629>
+
+Ray:
+Got it, logging in now. You ever think we
+should just switch to key-based auth
+for everything?
+
+Jess:
+Yes, every day. But NeonDripz HQ still wants
+human-readable passwords for staging.
+
+Ray:
+Sigh. Okay, I'm in. Also—did you notice
+the site loads slow on mobile?
+
+Jess:
+Yup. I traced it to the hero video—it's not
+lazy-loaded yet. I’ll patch that in.
+
+Ray:
+Cool. I also cleaned up a few unused assets
+in /public/images/—that alone shaved like 400KB.
+
+Jess:
+Bless. You always find that junk like a
+code raccoon.
+
+Ray:
+It's a talent. Oh, and I added a neon-mode
+toggle. Glows based on time of day!
+
+Jess:
+Bro. That’s dope. Let's push the build
+after we QA on staging?
+It's on <color=#E82629>{DeviceIP:HF_CofSD_Beginner_neuronetmedia}</color=#E82629>
+
+Ray:
+Yep. Gimme 10 mins to finish testing
+the new menu carousel.
+
